@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Capa_Datos", "Capa_Datos\Capa_Datos.vbproj", "{67BA8D2D-0D3D-463C-937A-0FBC5E20B0D4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Capa_Negocio", "Capa_Negocio\Capa_Negocio.vbproj", "{B7AB90D2-CD12-447D-8442-46CAD2DD0149}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Entidades", "Entidades\Entidades.vbproj", "{963FF603-69E2-48F9-916D-E88C7F129105}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Capa_Presentacion", "http://localhost:12532", "{6762AA40-8C35-413D-BFDB-4586687F1BCB}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{b7ab90d2-cd12-447d-8442-46cad2dd0149}|Capa_Negocio.dll;{963ff603-69e2-48f9-916d-e88c7f129105}|Entidades.dll;{67BA8D2D-0D3D-463C-937A-0FBC5E20B0D4}|Capa_Datos.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_12532"
+		Debug.AspNetCompiler.PhysicalPath = "Capa_Presentacion\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12532\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_12532"
+		Release.AspNetCompiler.PhysicalPath = "Capa_Presentacion\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12532\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Capa_Presentacion\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67BA8D2D-0D3D-463C-937A-0FBC5E20B0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BA8D2D-0D3D-463C-937A-0FBC5E20B0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BA8D2D-0D3D-463C-937A-0FBC5E20B0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BA8D2D-0D3D-463C-937A-0FBC5E20B0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AB90D2-CD12-447D-8442-46CAD2DD0149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AB90D2-CD12-447D-8442-46CAD2DD0149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AB90D2-CD12-447D-8442-46CAD2DD0149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AB90D2-CD12-447D-8442-46CAD2DD0149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{963FF603-69E2-48F9-916D-E88C7F129105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963FF603-69E2-48F9-916D-E88C7F129105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963FF603-69E2-48F9-916D-E88C7F129105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963FF603-69E2-48F9-916D-E88C7F129105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6762AA40-8C35-413D-BFDB-4586687F1BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6762AA40-8C35-413D-BFDB-4586687F1BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6762AA40-8C35-413D-BFDB-4586687F1BCB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6762AA40-8C35-413D-BFDB-4586687F1BCB}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

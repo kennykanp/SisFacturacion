@@ -1,0 +1,66 @@
+﻿  
+body{
+    
+	background:url(http://localhost:12532/Imagenes/bg.jpg)  no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+ 	background-size: cover;
+ 	position:relative;
+ 	font-family: 'Open Sans', sans-serif;
+    top: 0px;
+    left: 68px;
+    width: 1032px;
+}
+       
+* {
+padding:0px;
+    margin-right: 0px;
+    margin-bottom: 1px;
+}
+			
+#header {
+margin:auto auto auto 0px;
+width:660px;
+font-family:Arial, Helvetica, sans-serif;
+}
+			
+ul, ol {
+list-style:none;
+    width: 749px;
+}
+			
+.nav > li {
+float:left;
+}
+			
+.nav li a {
+background-color:#000;
+color:#fff;
+text-decoration:none;
+padding:10px 12px;
+display:block;
+}
+			
+.nav li a:hover {
+background-color:#434343;
+}
+			
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+			
+.nav li:hover > ul {
+display:block;
+}
+			
+.nav li ul li {
+position:relative;
+}
+			
+.nav li ul li ul {
+right:-140px;
+top:0px;
+}

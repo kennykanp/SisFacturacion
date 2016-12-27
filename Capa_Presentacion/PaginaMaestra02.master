@@ -1,0 +1,92 @@
+﻿<%@ Master Language="VB" CodeFile="PaginaMaestra02.master.vb" Inherits="PaginaMaestra02" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="Css-Estilos/estilos3.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header">
+        <ul class="nav">
+            <li><a href="PaginaPrincipal.aspx">Inicio</a></li>
+            <li><a href="">Productos</a>
+                <ul>
+                    <li><a href="">Acciones</a>
+                        <ul>
+                            <li><a href="Productos.aspx">Mantenimiento Productos</a>                            
+                        </ul>
+                </ul>
+            </li>
+
+            <li><a href="">Clientes</a>
+                <ul>
+                    <li><a href="">Acciones</a>
+                        <ul>
+                            <li><a href="Clientes.aspx">Mantenimiento Clientes</a>
+                            
+                        </ul>
+                </ul>
+            </li>
+
+            <li><a href="">Categorias</a>
+                <ul>
+                    <li><a href="">Acciones</a>
+                        <ul>
+                            <li><a href="Categorias.aspx">Mantenimiento Categorias</a>
+                            
+                        </ul>
+                </ul>
+            </li>
+
+            <li><a href="">Unidad de Medida</a>
+                <ul>
+                    <li><a href="">Acciones</a>
+                        <ul>
+                            <li><a href="UniMedida.aspx">Mantenimiento U. Medida</a>
+                            
+                        </ul>
+                </ul>
+            </li>
+
+            <li><a href="">Usuarios</a>
+                <ul>
+                    <li><a href="">Acciones</a>
+                        <ul>
+                            <li><a href="Usuarios.aspx">Mantenimiento Usuarios</a>
+                            
+                        </ul>
+                </ul>
+            </li>
+            
+        </ul>            
+    </div>
+        <%-------------------------------------------------------------------------------------%>
+    <section id="main-content">				
+			<img src="Imagenes/ecommerce-1024x569.png" alt="Gatito" />
+        		
+			<div class="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+			</div>
+
+	</section> <!-- / #main-content -->
+
+	<footer id="main-footer">
+		<p>&copy copyright 2016 [Usuario]: <a href="">
+            <asp:Label ID="lblUsuario" runat="server"></asp:Label>
+                            
+            </a></p>
+	</footer> <!-- / #main-footer -->
+ 
+	
+    </form>
+ 
+	
+</body>
+</html>
